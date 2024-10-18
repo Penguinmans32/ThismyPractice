@@ -1,2 +1,2 @@
 
-    int g = n / 2;
+        cin >> mag[i];

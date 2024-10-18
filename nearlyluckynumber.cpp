@@ -2,7 +2,7 @@
 
 int main() {
 
-    int n;
+    long long n;
     std:: cin >> n;
     int count = 0;
     std:: string num = std:: to_string(n);
@@ -13,7 +13,7 @@ int main() {
         }
     }
 
-    if(count >= 7) {
+    if(count == 4 || count == 7) {
         std:: cout << "YES" << std:: endl;
     }else {
         std:: cout << "NO" << std:: endl;
